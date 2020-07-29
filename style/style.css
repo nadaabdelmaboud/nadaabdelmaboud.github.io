@@ -7,6 +7,7 @@ body {
   padding: 0;
   background-color: #584153;
   width: 100%;
+  overflow: hidden;
 }
 /*Start Loading Screen*/
 #loading {
@@ -96,9 +97,73 @@ body {
 
 /*Start Skills*/
 #skills {
-  width: 100%;
+  position: relative;
+  margin: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
+    0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
+    0 0 75px #d9adad;
+  width: 80%;
   height: 40vw;
+  left: 8%;
+  padding: 10px;
+  color: #fff;
+}
+#skills h1 {
+  text-align: center;
+}
+#skills h2 {
+  text-decoration: underline;
+}
+.languages {
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+  font-weight: 200px;
+  font-size: 20px;
+}
+.languages .language {
+  float: left;
+  display: inline;
+  margin: 20px;
+  transform: translate(0, 60%);
+}
+.languages .value {
+  border: 0.1rem solid #d9adad;
+  border-radius: 20%;
+  padding: 10px;
+  margin: 20px;
+  float: right;
+  display: inline;
+}
+.Intermediate {
+  background-color: #93b5e1;
+  opacity: 0.7;
+}
+.Advanced {
+  background-color: #c4fb6d;
+  opacity: 0.7;
 }
 /*End Skills*/
 
+/*Start Projects*/
+#projects {
+  position: relative;
+  margin: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
+    0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
+    0 0 75px #d9adad;
+  width: 80%;
+  height: 40vw;
+  text-align: center;
+  left: 8%;
+}
+#projects h1 {
+  text-align: center;
+  color: #fff;
+}
+/*End Projects*/
 /*End Main*/
