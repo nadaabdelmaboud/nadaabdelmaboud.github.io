@@ -1,6 +1,7 @@
 $(window).on("load", function () {
   $("#loadingImg").fadeOut(1500, function () {
     let body = document.getElementsByTagName("body");
+    new WOW().init();
     body[0].style.overflow = "auto";
     $("#loading").fadeOut(1000, function () {
       /* Acknowledgment the typewriter code is inspired by https://www.youtube.com/watch?v=POX3dT-pB4E */

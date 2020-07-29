@@ -30,14 +30,47 @@ body {
 /*Start Header*/
 #header {
   width: 100%;
-  height: 40vw;
+  height: 48vw;
   position: relative;
 }
 #header #header-background {
   position: absolute;
   width: 100%;
   height: 100%;
+  box-shadow: 1px 1px 10px 1px #d9adad;
 }
+#nav {
+  position: fixed;
+  z-index: 999;
+  display: block;
+  background-color: #00001111;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin-right: 100px;
+  padding-right: 10px;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+li {
+  float: right;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 #header #myphoto {
   position: absolute;
   height: 30%;
@@ -105,13 +138,15 @@ body {
     0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
     0 0 75px #d9adad;
   width: 80%;
-  height: 40vw;
+  height: 65vw;
   left: 8%;
   padding: 10px;
   color: #fff;
+  overflow: auto;
 }
 #skills h1 {
   text-align: center;
+  font-size: 50px;
 }
 #skills h2 {
   text-decoration: underline;
@@ -143,6 +178,10 @@ body {
 }
 .Advanced {
   background-color: #c4fb6d;
+  opacity: 0.7;
+}
+.Beginner {
+  background-color: #fff48f;
   opacity: 0.7;
 }
 /*End Skills*/
