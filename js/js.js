@@ -58,3 +58,30 @@ $(window).on("load", function () {
     });
   });
 });
+
+$(document).ready(function () {
+  $("#HomeButton").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#header").offset().top,
+      },
+      500
+    );
+  });
+  $("#SkillsButton").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#skills").offset().top,
+      },
+      500
+    );
+  });
+  $("#ProjectsButton").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#projects").offset().top,
+      },
+      500
+    );
+  });
+});
