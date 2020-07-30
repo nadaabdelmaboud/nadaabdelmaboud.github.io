@@ -30,8 +30,9 @@ body {
 /*Start Header*/
 #header {
   width: 100%;
-  height: 48vw;
-  position: relative;
+  height: 100%;
+  position: absolute;
+  display: block;
 }
 #header #header-background {
   position: absolute;
@@ -104,7 +105,10 @@ li a:hover {
 /*End Header*/
 
 /*Start Main*/
-
+main {
+  position: absolute;
+  top: 100%;
+}
 /*Start Skills*/
 #skills {
   position: relative;
@@ -203,7 +207,8 @@ li a:hover {
 
 @media screen and (min-width: 700px) and (max-width: 1400px) {
   #header #abstract {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    top: 60%;
   }
   #skills {
     height: 85vw;
@@ -214,7 +219,8 @@ li a:hover {
 }
 @media screen and (min-width: 300px) and (max-width: 700px) {
   #header #abstract {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    top: 70%;
   }
   #nav {
     display: none;
@@ -238,7 +244,8 @@ li a:hover {
 }
 @media screen and (min-width: 50px) and (max-width: 300px) {
   #header #abstract {
-    font-size: 0.5rem;
+    font-size: 1rem;
+    top: 80%;
   }
   #nav {
     display: none;
