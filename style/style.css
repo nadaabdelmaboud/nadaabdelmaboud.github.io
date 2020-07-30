@@ -101,29 +101,6 @@ li a:hover {
 #header #abstract .txt-type {
   border-right: 0.3rem solid #584153;
 }
-
-@media screen and (max-width: 1500px) {
-  #header #abstract {
-    font-size: 3.5rem;
-  }
-}
-
-@media screen and (min-width: 700px) and (max-width: 1400px) {
-  #header #abstract {
-    font-size: 2.5rem;
-  }
-}
-@media screen and (min-width: 300px) and (max-width: 700px) {
-  #header #abstract {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 50px) and (max-width: 300px) {
-  #header #abstract {
-    font-size: 0.5rem;
-  }
-}
-
 /*End Header*/
 
 /*Start Main*/
@@ -141,8 +118,8 @@ li a:hover {
   height: 65vw;
   left: 8%;
   padding: 10px;
-  color: #fff;
   overflow: auto;
+  color: #fff;
 }
 #skills h1 {
   text-align: center;
@@ -151,6 +128,7 @@ li a:hover {
 #skills h2 {
   text-decoration: underline;
 }
+
 .languages {
   margin: 20px;
   display: inline-block;
@@ -206,3 +184,44 @@ li a:hover {
 }
 /*End Projects*/
 /*End Main*/
+
+/*responsive*/
+@media screen and (max-width: 1500px) {
+  #header #abstract {
+    font-size: 3.5rem;
+  }
+  #skills {
+    height: 65vw;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1400px) {
+  #header #abstract {
+    font-size: 2rem;
+  }
+  #skills {
+    height: 85vw;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  #header #abstract {
+    font-size: 1rem;
+  }
+  #nav {
+    display: none;
+  }
+  #skills {
+    height: 110vw;
+  }
+}
+@media screen and (min-width: 50px) and (max-width: 300px) {
+  #header #abstract {
+    font-size: 0.5rem;
+  }
+  #nav {
+    display: none;
+  }
+  #skills {
+    height: 130vw;
+  }
+}
