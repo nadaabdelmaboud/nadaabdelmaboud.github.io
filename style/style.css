@@ -306,6 +306,7 @@ main {
   }
   .languages .value {
     margin: 7px;
+    margin-right: 15px;
     padding: 3px;
   }
   .headlines {
@@ -339,11 +340,13 @@ main {
 
   .languages .language {
     margin: 2px;
+
     transform: translate(0, 35%);
   }
   .languages .value {
     padding: 3px;
     margin: 7px;
+    margin-right: 15px;
   }
   .headlines {
     font-size: 20px;
