@@ -460,6 +460,10 @@ main {
   #introprojects {
     height: 65vw;
   }
+  #projects h1 {
+    left: 25%;
+    top: 50%;
+  }
   #web-development {
     height: 135vw;
   }
@@ -479,8 +483,8 @@ main {
     width: 80%;
   }
   #projects h1 {
-    left: 10%;
-    top: 30%;
+    left: 25%;
+    top: 50%;
   }
   .card {
     width: 300px;
@@ -495,8 +499,8 @@ main {
     width: 80%;
   }
   #projects h1 {
-    left: 10%;
-    top: 30%;
+    left: 25%;
+    top: 50%;
   }
   .card {
     width: 280px;
