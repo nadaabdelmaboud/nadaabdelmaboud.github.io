@@ -212,6 +212,16 @@ li a:hover {
   }
   #skills {
     height: 110vw;
+    font-size: 8px;
+    margin-right: 10px;
+    transform: translate(-10%);
+  }
+  .languages .language {
+    margin: 2px;
+  }
+  .languages .value {
+    margin: 2px;
+    padding: 3px;
   }
 }
 @media screen and (min-width: 50px) and (max-width: 300px) {
@@ -223,5 +233,16 @@ li a:hover {
   }
   #skills {
     height: 130vw;
+    font-size: 8px;
+    margin-right: 10px;
+    transform: translate(-10%);
+  }
+
+  .languages .language {
+    margin: 2px;
+  }
+  .languages .value {
+    padding: 3px;
+    margin: 2px;
   }
 }
