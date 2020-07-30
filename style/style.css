@@ -332,7 +332,7 @@ main {
     width: 60%;
   }
   #projects {
-    top: 248vw;
+    top: 340vw;
   }
   .headlines {
     font-size: 30px;
@@ -405,7 +405,7 @@ main {
     left: 35%;
   }
   #projects {
-    top: 361vw;
+    top: 420vw;
     right: 5%;
   }
 }
@@ -464,7 +464,7 @@ main {
 }
 @media screen and (min-width: 350px) and (max-width: 450px) {
   #projects {
-    top: 736vw;
+    top: 820vw;
     right: 5%;
   }
   #projects h1 {
@@ -472,12 +472,12 @@ main {
     top: 30%;
   }
   .card {
-    width: 350px;
+    width: 300px;
   }
 }
 @media screen and (min-width: 50px) and (max-width: 350px) {
   #projects {
-    top: 790vw;
+    top: 840vw;
     right: 5%;
   }
   #projects h1 {
@@ -485,7 +485,7 @@ main {
     top: 30%;
   }
   .card {
-    width: 350px;
+    width: 280px;
   }
 }
 @media screen and (min-width: 50px) and (max-width: 450px) {
