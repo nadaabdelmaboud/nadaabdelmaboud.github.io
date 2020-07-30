@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #584153;
+  background-color: #241d27;
   width: 100%;
   overflow: hidden;
 }
@@ -112,15 +112,18 @@ li a:hover {
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
   text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
-    0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
-    0 0 75px #d9adad;
+    0 0 10px #d9adad, 0 0 30px #d9adad, 0 0 10px #d9adad, 0 0 10px #d9adad,
+    0 0 10px #d9adad;
   width: 80%;
   height: 65vw;
   left: 8%;
   padding: 10px;
   overflow: auto;
+  background-color: #241d27;
   color: #fff;
+  border: none;
 }
+
 #skills h1 {
   text-align: center;
   font-size: 50px;
@@ -192,6 +195,9 @@ li a:hover {
   }
   #skills {
     height: 65vw;
+  }
+  .headlines {
+    font-size: 30px;
   }
 }
 
