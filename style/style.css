@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-attachment: fixed;
-  background-image: linear-gradient(#114357, #f29492);
+  background-image: linear-gradient(#114357, #462d2d);
   width: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -258,6 +258,9 @@ main {
   #others {
     height: 40vw;
   }
+  #skills h1 {
+    left: 37%;
+  }
 }
 @media screen and (min-width: 850px) and (max-width: 1000px) {
   #header #abstract {
@@ -280,10 +283,13 @@ main {
   #others {
     height: 50vw;
   }
+  #skills h1 {
+    left: 35%;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 850px) {
   #header #abstract {
-    font-size: 2.5rem;
+    font-size: 2rem;
     top: 60%;
   }
   main {
@@ -303,10 +309,13 @@ main {
   #others {
     height: 60vw;
   }
+  #skills h1 {
+    left: 35%;
+  }
 }
 @media screen and (min-width: 450px) and (max-width: 700px) {
   #header #abstract {
-    font-size: 2.5rem;
+    font-size: 2rem;
     top: 50%;
   }
   main {
@@ -341,10 +350,13 @@ main {
   #others {
     height: 80vw;
   }
+  #skills h1 {
+    left: 35%;
+  }
 }
 @media screen and (min-width: 50px) and (max-width: 450px) {
   #header #abstract {
-    font-size: 2rem;
+    font-size: 1.3rem;
     top: 50%;
   }
   main {
@@ -380,5 +392,8 @@ main {
   }
   #others {
     height: 120vw;
+  }
+  #skills h1 {
+    left: 35%;
   }
 }
