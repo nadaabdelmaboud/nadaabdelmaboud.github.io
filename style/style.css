@@ -213,6 +213,7 @@ li a:hover {
   #skills {
     height: 110vw;
     font-size: 8px;
+    left: 0%;
   }
   .languages .language {
     margin: 2px;
@@ -233,6 +234,7 @@ li a:hover {
   #skills {
     height: 130vw;
     font-size: 8px;
+    left: 0%;
   }
 
   .languages .language {
