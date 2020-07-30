@@ -120,6 +120,7 @@ li a:hover {
   padding: 10px;
   overflow: auto;
   color: #fff;
+  transform: translate(-10%);
 }
 #skills h1 {
   text-align: center;
@@ -214,7 +215,6 @@ li a:hover {
     height: 110vw;
     font-size: 8px;
     margin-right: 10px;
-    transform: translate(-10%);
   }
   .languages .language {
     margin: 2px;
@@ -235,7 +235,6 @@ li a:hover {
     height: 130vw;
     font-size: 8px;
     margin-right: 10px;
-    transform: translate(-10%);
   }
 
   .languages .language {
