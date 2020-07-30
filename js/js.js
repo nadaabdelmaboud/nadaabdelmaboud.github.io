@@ -74,4 +74,12 @@ $(document).ready(function () {
       500
     );
   });
+  $("#ProjectsButton").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#projects").offset().top,
+      },
+      500
+    );
+  });
 });

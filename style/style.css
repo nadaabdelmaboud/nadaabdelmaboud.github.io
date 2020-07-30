@@ -8,6 +8,7 @@ body {
   background-attachment: fixed;
   background-image: linear-gradient(#114357, #462d2d);
   width: 100%;
+  height: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -209,11 +210,94 @@ main {
 /*End Skills*/
 
 /*Start Projects*/
+#projects {
+  position: relative;
+  width: 90%;
+  top: 190vw;
+  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
+    0 0 10px #d9adad, 0 0 30px #d9adad, 0 0 10px #d9adad, 0 0 10px #d9adad,
+    0 0 10px #d9adad;
+  color: #fff;
+}
+#introprojects {
+  position: relative;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 67%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  height: 25vw;
+  background-image: url("../img/a2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 21%;
+}
+#projects h1 {
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.card {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 10px;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: arial;
+  background-attachment: fixed;
+  float: left;
+  left: 10%;
+  transform: translate(50%);
+  height: 600px;
+}
+.card img {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+.role {
+  color: grey;
+  font-size: 22px;
+}
 
+.card a {
+  position: absolute;
+  bottom: 10px;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  right: 145px;
+  margin-top: 5px;
+}
+.card .title {
+  font-size: 30px;
+}
+.card p {
+  display: block;
+  margin: 10px;
+}
+
+.card a:hover {
+  opacity: 0.7;
+}
 /*End Projects*/
 /*End Main*/
 
 /*responsive*/
+@media screen and (min-width: 1500px) and (max-width: 2200px) {
+  #projects {
+    top: 190vw;
+  }
+}
 @media screen and (max-width: 1500px) {
   #header #abstract {
     font-size: 3.5rem;
@@ -234,6 +318,9 @@ main {
   #others {
     height: 30vw;
   }
+  #projects {
+    top: 180vw;
+  }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
@@ -244,7 +331,9 @@ main {
   main {
     width: 60%;
   }
-
+  #projects {
+    top: 248vw;
+  }
   .headlines {
     font-size: 30px;
   }
@@ -286,6 +375,9 @@ main {
   #skills h1 {
     left: 35%;
   }
+  #projects {
+    top: 310vw;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 850px) {
   #header #abstract {
@@ -311,6 +403,22 @@ main {
   }
   #skills h1 {
     left: 35%;
+  }
+  #projects {
+    top: 361vw;
+    right: 5%;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 700px) {
+  #projects {
+    top: 470vw;
+    right: 7%;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 580px) {
+  #projects {
+    top: 505vw;
+    right: 7%;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 700px) {
@@ -352,6 +460,32 @@ main {
   }
   #skills h1 {
     left: 35%;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 450px) {
+  #projects {
+    top: 736vw;
+    right: 5%;
+  }
+  #projects h1 {
+    left: 20%;
+    top: 30%;
+  }
+  .card {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 50px) and (max-width: 350px) {
+  #projects {
+    top: 790vw;
+    right: 5%;
+  }
+  #projects h1 {
+    left: 20%;
+    top: 30%;
+  }
+  .card {
+    width: 350px;
   }
 }
 @media screen and (min-width: 50px) and (max-width: 450px) {
