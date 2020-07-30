@@ -208,6 +208,9 @@ li a:hover {
   #skills {
     height: 85vw;
   }
+  .headlines {
+    font-size: 30px;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 700px) {
   #header #abstract {
@@ -228,6 +231,9 @@ li a:hover {
   .languages .value {
     margin: 2px;
     padding: 3px;
+  }
+  .headlines {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 50px) and (max-width: 300px) {
@@ -250,5 +256,8 @@ li a:hover {
   .languages .value {
     padding: 3px;
     margin: 2px;
+  }
+  .headlines {
+    font-size: 20px;
   }
 }
