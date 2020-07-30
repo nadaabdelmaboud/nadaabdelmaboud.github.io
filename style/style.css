@@ -287,8 +287,8 @@ main {
 }
 @media screen and (min-width: 450px) and (max-width: 700px) {
   #header #abstract {
-    font-size: 2.5rem;
-    top: 60%;
+    font-size: 3.5rem;
+    top: 50%;
   }
   main {
     left: 5%;
@@ -324,8 +324,8 @@ main {
 }
 @media screen and (min-width: 50px) and (max-width: 450px) {
   #header #abstract {
-    font-size: 2rem;
-    top: 65%;
+    font-size: 3.5rem;
+    top: 50%;
   }
   main {
     left: 0;
