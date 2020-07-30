@@ -332,7 +332,10 @@ main {
     width: 60%;
   }
   #projects {
-    top: 340vw;
+    top: 240vw;
+  }
+  .card {
+    left: 20%;
   }
   .headlines {
     font-size: 30px;
