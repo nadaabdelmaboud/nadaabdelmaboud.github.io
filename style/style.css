@@ -467,7 +467,7 @@ main {
 }
 @media screen and (min-width: 350px) and (max-width: 450px) {
   #projects {
-    top: 820vw;
+    top: 805vw;
     right: 5%;
   }
   #introprojects {
@@ -483,7 +483,7 @@ main {
 }
 @media screen and (min-width: 50px) and (max-width: 350px) {
   #projects {
-    top: 840vw;
+    top: 825vw;
     right: 5%;
   }
   #introprojects {
