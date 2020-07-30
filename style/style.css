@@ -218,6 +218,7 @@ li a:hover {
   }
   .languages .language {
     margin: 2px;
+    transform: translate(0, 35%);
   }
   .languages .value {
     margin: 2px;
@@ -239,6 +240,7 @@ li a:hover {
 
   .languages .language {
     margin: 2px;
+    transform: translate(0, 35%);
   }
   .languages .value {
     padding: 3px;
