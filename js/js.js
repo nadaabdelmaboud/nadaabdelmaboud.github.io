@@ -2,7 +2,7 @@ new WOW().init();
 $(window).on("load", function () {
   $("#loadingImg").fadeOut(1500, function () {
     let body = document.getElementsByTagName("body");
-    body[0].style.overflow = "auto";
+    body[0].style = "overflow-y :auto;";
     $("#loading").fadeOut(1000);
   });
 });
@@ -70,14 +70,6 @@ $(document).ready(function () {
     $([document.documentElement, document.body]).animate(
       {
         scrollTop: $("#skills").offset().top,
-      },
-      500
-    );
-  });
-  $("#ProjectsButton").click(function () {
-    $([document.documentElement, document.body]).animate(
-      {
-        scrollTop: $("#projects").offset().top,
       },
       500
     );

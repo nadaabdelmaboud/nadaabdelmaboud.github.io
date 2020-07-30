@@ -7,7 +7,8 @@ body {
   padding: 0;
   background-color: #241d27;
   width: 100%;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 /*Start Loading Screen*/
 #loading {
@@ -107,27 +108,44 @@ li a:hover {
 /*Start Main*/
 main {
   position: absolute;
+  left: 17%;
   top: 100%;
+  width: 60%;
+  height: 100%;
 }
 /*Start Skills*/
 #skills {
-  position: relative;
+  position: absolute;
+  width: 100%;
   margin: 20px;
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
   text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
     0 0 10px #d9adad, 0 0 30px #d9adad, 0 0 10px #d9adad, 0 0 10px #d9adad,
     0 0 10px #d9adad;
-  width: 80%;
-  height: 65vw;
-  left: 8%;
-  padding: 10px;
-  overflow: auto;
-  background-color: #241d27;
   color: #fff;
+}
+#programming-languages,
+#web-development,
+#others {
+  position: relative;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #241d27;
   border: none;
 }
 
+#programming-languages {
+  height: 25vw;
+}
+#web-development {
+  height: 45vw;
+}
+#others {
+  height: 30vw;
+}
 #skills h1 {
   text-align: center;
   font-size: 50px;
@@ -138,24 +156,28 @@ main {
 
 .languages {
   margin: 20px;
-  display: inline-block;
+  display: block;
   position: relative;
   font-weight: 200px;
   font-size: 20px;
+  width: 100%;
+  height: 50px;
 }
 .languages .language {
-  float: left;
-  display: inline;
-  margin: 20px;
-  transform: translate(0, 60%);
+  position: absolute;
+  display: inline-block;
+  margin: 5px;
+  left: 5px;
 }
 .languages .value {
+  position: absolute;
   border: 0.1rem solid #d9adad;
   border-radius: 20%;
   padding: 10px;
-  margin: 20px;
-  float: right;
-  display: inline;
+  margin: 5px;
+  margin-right: 40px;
+  right: 5px;
+  display: inline-block;
 }
 .Intermediate {
   background-color: #93b5e1;
@@ -172,23 +194,7 @@ main {
 /*End Skills*/
 
 /*Start Projects*/
-#projects {
-  position: relative;
-  margin: 20px;
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
-  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
-    0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
-    0 0 75px #d9adad;
-  width: 80%;
-  height: 40vw;
-  text-align: center;
-  left: 8%;
-}
-#projects h1 {
-  text-align: center;
-  color: #fff;
-}
+
 /*End Projects*/
 /*End Main*/
 
@@ -197,38 +203,102 @@ main {
   #header #abstract {
     font-size: 3.5rem;
   }
-  #skills {
-    height: 65vw;
+  main {
+    width: 60%;
   }
   .headlines {
     font-size: 30px;
   }
+  #programming-languages {
+    height: 25vw;
+  }
+  #web-development {
+    height: 45vw;
+  }
+  #others {
+    height: 30vw;
+  }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1400px) {
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
   #header #abstract {
     font-size: 2.5rem;
     top: 60%;
   }
-  #skills {
-    height: 85vw;
+  main {
+    width: 60%;
+  }
+
+  .headlines {
+    font-size: 30px;
+  }
+  #programming-languages {
+    height: 35vw;
+  }
+  #web-development {
+    height: 65vw;
+  }
+  #others {
+    height: 40vw;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1000px) {
+  #header #abstract {
+    font-size: 2.5rem;
+    top: 60%;
+  }
+  main {
+    width: 60%;
   }
   .headlines {
     font-size: 30px;
   }
+  #programming-languages {
+    height: 45vw;
+  }
+  #web-development {
+    height: 75vw;
+  }
+  #others {
+    height: 50vw;
+  }
 }
-@media screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 850px) {
+  #header #abstract {
+    font-size: 2.5rem;
+    top: 60%;
+  }
+  main {
+    left: 5%;
+    width: 70%;
+  }
+  .headlines {
+    font-size: 30px;
+  }
+  #programming-languages {
+    height: 55vw;
+  }
+  #web-development {
+    height: 85vw;
+  }
+  #others {
+    height: 60vw;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 700px) {
   #header #abstract {
     font-size: 1.5rem;
     top: 70%;
+  }
+  main {
+    left: 5%;
+    width: 60%;
   }
   #nav {
     display: none;
   }
   #skills {
-    height: 110vw;
     font-size: 8px;
-    left: 0%;
   }
   .languages .language {
     margin: 2px;
@@ -241,19 +311,30 @@ main {
   .headlines {
     font-size: 20px;
   }
+  #programming-languages {
+    height: 65vw;
+  }
+  #web-development {
+    height: 135vw;
+  }
+  #others {
+    height: 80vw;
+  }
 }
-@media screen and (min-width: 50px) and (max-width: 300px) {
+@media screen and (min-width: 50px) and (max-width: 450px) {
   #header #abstract {
     font-size: 1rem;
     top: 80%;
+  }
+  main {
+    left: 0;
+    width: 80%;
   }
   #nav {
     display: none;
   }
   #skills {
-    height: 130vw;
     font-size: 8px;
-    left: 0%;
   }
 
   .languages .language {
@@ -266,5 +347,14 @@ main {
   }
   .headlines {
     font-size: 20px;
+  }
+  #programming-languages {
+    height: 95vw;
+  }
+  #web-development {
+    height: 220vw;
+  }
+  #others {
+    height: 120vw;
   }
 }
