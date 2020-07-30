@@ -120,7 +120,6 @@ li a:hover {
   padding: 10px;
   overflow: auto;
   color: #fff;
-  transform: translate(-10%);
 }
 #skills h1 {
   text-align: center;
