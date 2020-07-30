@@ -470,8 +470,11 @@ main {
     top: 820vw;
     right: 5%;
   }
+  #introprojects {
+    width: 80%;
+  }
   #projects h1 {
-    left: 20%;
+    left: 10%;
     top: 30%;
   }
   .card {
@@ -483,8 +486,11 @@ main {
     top: 840vw;
     right: 5%;
   }
+  #introprojects {
+    width: 80%;
+  }
   #projects h1 {
-    left: 20%;
+    left: 10%;
     top: 30%;
   }
   .card {
