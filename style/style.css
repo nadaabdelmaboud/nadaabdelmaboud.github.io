@@ -309,7 +309,8 @@ main {
     font-size: 30px;
   }
   #programming-languages,
-  #intro {
+  #intro,
+  #introprojects {
     height: 25vw;
   }
   #web-development {
@@ -341,7 +342,8 @@ main {
     font-size: 30px;
   }
   #programming-languages,
-  #intro {
+  #intro,
+  #introprojects {
     height: 35vw;
   }
   #web-development {
@@ -366,7 +368,8 @@ main {
     font-size: 30px;
   }
   #programming-languages,
-  #intro {
+  #intro,
+  #introprojects {
     height: 45vw;
   }
   #web-development {
@@ -395,7 +398,8 @@ main {
     font-size: 30px;
   }
   #programming-languages,
-  #intro {
+  #intro,
+  #introprojects {
     height: 55vw;
   }
   #web-development {
@@ -452,7 +456,8 @@ main {
     font-size: 20px;
   }
   #programming-languages,
-  #intro {
+  #intro,
+  #introprojects {
     height: 65vw;
   }
   #web-development {
@@ -527,7 +532,8 @@ main {
     font-size: 20px;
   }
   #programming-languages,
-  #intro {
+  #intro,
+  #introprojects {
     height: 95vw;
   }
   #web-development {
