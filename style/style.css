@@ -570,11 +570,11 @@ button:hover {
 }
 @media screen and (min-width: 350px) and (max-width: 450px) {
   #projects {
-    top: 730vw;
+    top: 780vw;
     right: 5%;
   }
   #footer {
-    top: 2200vw;
+    top: 2250vw;
   }
   #introprojects {
     width: 80%;
@@ -589,11 +589,11 @@ button:hover {
 }
 @media screen and (min-width: 50px) and (max-width: 350px) {
   #projects {
-    top: 800vw;
+    top: 840vw;
     right: 5%;
   }
   #footer {
-    top: 2500vw;
+    top: 2560vw;
   }
   #introprojects {
     width: 80%;
