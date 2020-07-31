@@ -8,6 +8,8 @@ $(window).on("load", function () {
 });
 
 $(document).ready(function () {
+  /*Akcnowledgment the TypeWriter code is inspired by https://www.youtube.com/watch?v=POX3dT-pB4E*/
+
   class TypeWriter {
     constructor(txtElement, words, wait = 100) {
       this.txtElement = txtElement;
