@@ -96,9 +96,7 @@ li a:hover {
   font-size: 3.5rem;
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
-  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
-    0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
-    0 0 75px #d9adad;
+
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
@@ -120,9 +118,7 @@ main {
   position: absolute;
   width: 100%;
   margin: 20px;
-  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
-    0 0 10px #d9adad, 0 0 30px #d9adad, 0 0 10px #d9adad, 0 0 10px #d9adad,
-    0 0 10px #d9adad;
+
   color: #fff;
 }
 #programming-languages,
@@ -214,9 +210,7 @@ main {
   position: relative;
   width: 90%;
   top: 190vw;
-  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
-    0 0 10px #d9adad, 0 0 30px #d9adad, 0 0 10px #d9adad, 0 0 10px #d9adad,
-    0 0 10px #d9adad;
+
   color: #fff;
 }
 #introprojects {
@@ -304,9 +298,7 @@ main {
   text-align: center;
   position: absolute;
   left: 30%;
-  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
-    0 0 10px #d9adad, 0 0 30px #d9adad, 0 0 10px #d9adad, 0 0 10px #d9adad,
-    0 0 10px #d9adad;
+
   color: #fff;
 }
 #contact-form {
