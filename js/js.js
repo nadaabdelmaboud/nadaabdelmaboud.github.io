@@ -95,9 +95,6 @@ $(document).ready(function () {
     const email = $("#email").val();
     const body = $("#txtarea").val();
     const subj = $("#name").val();
-    console.log(email);
-    console.log(body);
-    console.log(subj);
 
     if (email != "" && body != "" && subj != "") {
       Email.send({
