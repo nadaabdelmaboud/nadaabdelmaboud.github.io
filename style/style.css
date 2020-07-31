@@ -83,8 +83,6 @@ li a:hover {
   transform: translate(60%, 50%);
   left: 15%;
   opacity: 0.7;
-  box-shadow: inset 0 -3em 3em rgba(223, 208, 208, 0.1),
-    0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(206, 174, 174, 0.3);
 }
 #header #abstract {
   position: absolute;
@@ -367,6 +365,10 @@ button:hover {
   #footer {
     top: 316vw;
   }
+  #header #myphoto {
+    box-shadow: inset 0 -3em 3em rgba(223, 208, 208, 0.1),
+      0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(206, 174, 174, 0.3);
+  }
   #abstract {
     text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
       0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
@@ -400,6 +402,10 @@ button:hover {
   #footer {
     top: 470vw;
   }
+  #header #myphoto {
+    box-shadow: inset 0 -3em 3em rgba(223, 208, 208, 0.1),
+      0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(206, 174, 174, 0.3);
+  }
   #abstract {
     text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
       0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
@@ -411,6 +417,10 @@ button:hover {
   #header #abstract {
     font-size: 2.5rem;
     top: 60%;
+  }
+  #header #myphoto {
+    box-shadow: inset 0 -3em 3em rgba(223, 208, 208, 0.1),
+      0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(206, 174, 174, 0.3);
   }
   main {
     width: 60%;
