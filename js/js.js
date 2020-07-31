@@ -66,6 +66,7 @@ $(document).ready(function () {
       500
     );
   });
+
   $("#SkillsButton").click(function () {
     $([document.documentElement, document.body]).animate(
       {
@@ -81,5 +82,38 @@ $(document).ready(function () {
       },
       500
     );
+  });
+  $("#ContactButton").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#footer").offset().top,
+      },
+      500
+    );
+  });
+  $(document).on("submit", "#form", function () {
+    const email = $("#email").val();
+    const body = $("#txtarea").val();
+    const subj = $("#name").val();
+    console.log(email);
+    console.log(body);
+    console.log(subj);
+
+    if (email != "" && body != "" && subj != "") {
+      Email.send({
+        SecureToken: "af600100-1c2a-4cd7-b9ed-7eaeb73e55c6",
+        To: "nada5aled52@gmail.com",
+        From: String(email),
+        Port: 587,
+        Subject: String(subj),
+        Body: String(body),
+        Secure: false,
+      }).then((message) =>
+        alert(
+          "your message has been sent , I'll try to respond as quick as I can"
+        )
+      );
+    }
+    return false;
   });
 });

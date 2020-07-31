@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio</title>
+    <title>Nada AbdElmaboud</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="style/animate.css" rel="stylesheet" />
     <link href="style/style.css" rel="stylesheet" />
 
@@ -52,12 +53,12 @@
       <!--Start Skills-->
       
       <div id="skills" >
-        <div id="intro" class="wow rotateInUpRight " >
-        <h1 class="headlines wow rotateInUpRight" >Skills</h1>
+        <div id="intro" class="wow fadeInUp " >
+        <h1 class="headlines wow fadeInUp" >Skills</h1>
         </div>
         <br>
         <br>
-        <div id="programming-languages" class="wow rotateInUpRight " >
+        <div id="programming-languages" class="wow fadeInUp " >
         <h2 class="headlines">Programming Languages</h2>
         <div id="c++" class="languages">
           <p class="language">C++</p>
@@ -77,7 +78,7 @@
         </div>
 
         </div>
-        <div id="web-development" class="wow rotateInUpRight " >
+        <div id="web-development" class="wow fadeInUp " >
         <h2 class="headlines">Web Development</h2>
         <div id="html" class="languages">
           <p class="language">HTML</p>
@@ -116,7 +117,7 @@
           <p class="value Advanced" >Advanced</p>
         </div>
         </div>
-        <div id="others"  class="wow rotateInUpRight ">
+        <div id="others"  class="wow fadeInUp ">
         <h2 class="headlines">Others</h2>
         <div id="OOP" class="languages">
           <p class="language">OOP</p>
@@ -148,9 +149,9 @@
 <!---End Main-->
 
 <!---Start Projects--->
-    <div id="projects" >
-      <div id="introprojects" class="wow rotateInUpRight " >
-        <h1 class="headlines wow rotateInUpRight" >Projects</h1>
+    <div id="projects" class="wow fadeInUp " >
+      <div id="introprojects" class="wow fadeInUp " >
+        <h1 class="headlines wow fadeInUp" >Projects</h1>
         </div>
           <div class="card animated slideInLeft">
               <img src='./img/projects/marioplex.png'  style="width:100% ; height:300px">
@@ -212,10 +213,39 @@
 <!---End Projects--->
 
     <!---Start Footer-->
+    <!---Start Contact Form-->
+    <div id="footer" >
+      <h1>Contact</h1>
+    <div id="contact-form">
+      <form id="form">
+        <input id="name" type="text" placeholder="Name"/>
+        <input id="email" type="email" placeholder="Email"/>
+        <textarea
+        placeholder="Type Your Message"
+        id="txtarea"
+        rows="7"
+        tabindex="4"
+        required="required"
+      ></textarea>   
+      <div>
+      <button type="submit" id="submit">Send</button>
+      <div id="icons" >
+        <a href="https://www.facebook.com/nada.abdelmaboud" target="_blank"><i style="color: rgb(36, 36, 41);" class="fab fa-facebook-square"></i></a>
+        <a href="https://www.linkedin.com/in/nada-abdelmaboud-409905193/" target="_blank"><i style="color:rgb(101, 101, 128)" class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/nadaabdelmaboud" target="_blank"><i style="color:black" class="fab fa-github"></i></a>
+      </div>
+    </div>
+       </form>
+    </div>
+    <!---End Contact Form-->
 
+
+   <!---Start Contact Icons-->
+    <!---End Contact Icons-->
+  </div>
     <!---End Footer-->
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/js.js"></script>

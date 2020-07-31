@@ -292,10 +292,86 @@ main {
 /*End Projects*/
 /*End Main*/
 
+/*Start Footer*/
+#footer {
+  position: relative;
+  width: 85%;
+  top: 316vw;
+  height: 20vw;
+  margin-left: 16%;
+  margin-bottom: 20px;
+}
+#footer h1 {
+  text-align: center;
+  position: absolute;
+  left: 30%;
+  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
+    0 0 10px #d9adad, 0 0 30px #d9adad, 0 0 10px #d9adad, 0 0 10px #d9adad,
+    0 0 10px #d9adad;
+  color: #fff;
+}
+#contact-form {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  margin-top: 20px;
+  height: 100%;
+  margin-bottom: 40px;
+}
+form {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+input,
+textarea,
+button {
+  border-radius: 3%;
+  position: relative;
+  width: 70%;
+  height: 10%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #000;
+  border: none;
+  border-bottom: 2px black solid;
+  display: block;
+  margin: 10px;
+}
+textarea {
+  height: 40%;
+}
+button {
+  width: 20%;
+  height: 15%;
+  transition: all 0.5s ease-out;
+  border-radius: 40%;
+  display: inline;
+  float: left;
+}
+#icons {
+  position: relative;
+  display: inline;
+  float: right;
+  right: 30%;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+button:hover {
+  background-color: #203a43;
+  color: #d9adad;
+}
+/*End Footer*/
+
 /*responsive*/
 @media screen and (min-width: 1500px) and (max-width: 2200px) {
   #projects {
     top: 190vw;
+  }
+  #footer {
+    top: 316vw;
   }
 }
 @media screen and (max-width: 1500px) {
@@ -322,6 +398,9 @@ main {
   #projects {
     top: 180vw;
   }
+  #footer {
+    top: 470vw;
+  }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
@@ -334,6 +413,9 @@ main {
   }
   #projects {
     top: 240vw;
+  }
+  #footer {
+    top: 520vw;
   }
   .card {
     left: 20%;
@@ -384,6 +466,9 @@ main {
   #projects {
     top: 310vw;
   }
+  #footer {
+    top: 700vw;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 850px) {
   #header #abstract {
@@ -415,17 +500,26 @@ main {
     top: 420vw;
     right: 5%;
   }
+  #footer {
+    top: 1150vw;
+  }
 }
 @media screen and (min-width: 580px) and (max-width: 700px) {
   #projects {
     top: 470vw;
     right: 7%;
   }
+  #footer {
+    top: 1700vw;
+  }
 }
 @media screen and (min-width: 450px) and (max-width: 580px) {
   #projects {
     top: 505vw;
     right: 7%;
+  }
+  #footer {
+    top: 2000vw;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 700px) {
@@ -476,8 +570,11 @@ main {
 }
 @media screen and (min-width: 350px) and (max-width: 450px) {
   #projects {
-    top: 805vw;
+    top: 730vw;
     right: 5%;
+  }
+  #footer {
+    top: 2200vw;
   }
   #introprojects {
     width: 80%;
@@ -492,8 +589,11 @@ main {
 }
 @media screen and (min-width: 50px) and (max-width: 350px) {
   #projects {
-    top: 825vw;
+    top: 800vw;
     right: 5%;
+  }
+  #footer {
+    top: 2500vw;
   }
   #introprojects {
     width: 80%;
