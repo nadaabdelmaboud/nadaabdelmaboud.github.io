@@ -96,9 +96,7 @@ li a:hover {
   font-size: 3.5rem;
   -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000000;
-  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
-    0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
-    0 0 75px #d9adad;
+
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
@@ -367,6 +365,11 @@ button:hover {
   #footer {
     top: 316vw;
   }
+  #abstract {
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
+      0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
+      0 0 75px #d9adad;
+  }
 }
 @media screen and (max-width: 1500px) {
   #header #abstract {
@@ -394,6 +397,11 @@ button:hover {
   }
   #footer {
     top: 470vw;
+  }
+  #abstract {
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
+      0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
+      0 0 75px #d9adad;
   }
 }
 
@@ -430,6 +438,11 @@ button:hover {
   }
   #skills h1 {
     left: 37%;
+  }
+  #abstract {
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000,
+      0 0 20px #d9adad, 0 0 30px #d9adad, 0 0 40px #d9adad, 0 0 55px #d9adad,
+      0 0 75px #d9adad;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1000px) {
