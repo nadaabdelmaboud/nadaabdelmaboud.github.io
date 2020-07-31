@@ -180,6 +180,7 @@ main {
   display: inline-block;
   margin: 5px;
   left: 5px;
+  color: #181116;
 }
 .languages .value {
   position: absolute;
@@ -190,6 +191,7 @@ main {
   margin-right: 40px;
   right: 5px;
   display: inline-block;
+  color: #181116;
 }
 .Intermediate {
   background-color: #93b5e1;
