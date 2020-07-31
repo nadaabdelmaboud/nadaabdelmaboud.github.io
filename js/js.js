@@ -1,4 +1,3 @@
-new WOW().init();
 $(window).on("load", function () {
   $("#loadingImg").fadeOut(1500, function () {
     let body = document.getElementsByTagName("body");
