@@ -162,6 +162,7 @@ main {
   position: absolute;
   top: 50%;
   left: 44%;
+  color: #5d4157;
 }
 #skills h2 {
   text-decoration: underline;
@@ -234,6 +235,7 @@ main {
   position: absolute;
   top: 50%;
   left: 40%;
+  color: #5d4157;
 }
 .card {
   position: relative;
