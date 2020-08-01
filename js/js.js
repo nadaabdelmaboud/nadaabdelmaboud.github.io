@@ -102,10 +102,10 @@ $(document).ready(function () {
       Email.send({
         SecureToken: "af600100-1c2a-4cd7-b9ed-7eaeb73e55c6",
         To: "nada5aled52@gmail.com",
-        From: String(email),
+        From: "nada5aled52@gmail.com",
         Port: 587,
-        Subject: String(subj),
-        Body: String(body),
+        Subject: String(email),
+        Body: String(subj) + "    " + String(body),
         Secure: false,
       }).then((message) =>
         alert(
