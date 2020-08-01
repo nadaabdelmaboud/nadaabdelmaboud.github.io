@@ -109,7 +109,7 @@ $(document).ready(function () {
         Secure: false,
       }).then((message) =>
         alert(
-          "your message has been sent , I'll try to respond as quick as I can"
+          "your message has been sent , I'll try to respond as soon as I can"
         )
       );
     }
